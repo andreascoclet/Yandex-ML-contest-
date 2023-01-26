@@ -75,10 +75,9 @@ with open('input.txt') as f:
     input_points = f.readlines()
 
 input_points = [x.strip() for x in input_points]
-#random.shuffle(input_points)
 
-#generated_algorithm = []
+
 for i in range(100):
     print(main(input_points[i]))
 
-#for i in generated_algorithm : print(i)
+
